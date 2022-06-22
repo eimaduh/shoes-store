@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/header.css">
+
+</head>
+<body>
+    <header>
+        <img src="./images/logo-color.png" alt="Shoes store" />
+    
+        <nav>
+          <ul>
+            <li>
+              Todos os produtos
+            </li>
+            <li>
+              Coleções
+            </li>
+            <li>
+              Outlet
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1>Faça parte do nosso time</h1>
+      
+      <div class="container-flex">
+        
+
+          <div class="formulario">
+
+            <form>
+                <div class="width">
+
+                    <label for="name">Nome:</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+                    <label for="tel">Telefone:</label>
+                    <br>
+                    <input type="tel" id="tel" name="tel">
+                    <br><br>
+                    <label>Departamentos</label>
+                    <br>
+                    <select name="departamento" id="departamento">
+                      <option selected disabled></option>
+                      <option value="RH">RH</option>
+                      <option value="Vendedor">Vendedor</option>
+                      <option value="Gerente">Gerente</option>
+                      <option value="Marketing">Marketing</option>
+                    </select>
+                    <br><br>
+
+                </div>
+
+        
+                <div class="margin">
+                  <label for="disponibilidade">Disponibilidade:</label>
+                  <br>
+                  <input class="color" type="checkbox" id="integral" name="disponibilidade" value="integral">
+                  <label for="integral">Integral (8h)</label>
+                  
+                  <input type="checkbox" id="meio periodo" name="disponibilidade" value="meio periodo">
+                  <label for="meio periodo">Meio período (4h)</label>
+                 
+                  <input type="checkbox" id="freelancer" name="disponibilidade" value="freelancer">
+                  <label for="freelancer">Freelancer</label>
+                
+                  <br><br>
+                  <label for="contato">Qual a melhor forma de entrarmos em contato com você?</label>
+                  <br>
+                  <input type="radio" id="email" name="email" value="email">
+                  <label for="email">Email</label>
+
+                  <input type="radio" id="ligação" name="ligação" value="ligação">
+                  <label for="ligação">Ligação</label>
+                  
+                  <input type="radio" id="whatsapp" name="whatsapp" value="whatsapp">
+                  <label for="whatsapp">WhatsApp</label>
+                </div>
+               
+                  <br><br>
+                  <label for="mensagem">Mensagem</label>
+                  <br>
+                 <textarea name="mensagem" id="mensagem" cols="60" rows="5"></textarea>
+                 <br><br>
+
+                 
+                  <label>Curriculo</label>
+                  <label class="curriculo" for="curriculo">upload</label>
+                  <input type="file" name="curriculo" id="curriculo" accept=".jpg">
+                  <br><br><br>
+
+                 <button type="submit">Enviar</button>
+                 <br>
+                
+            </form>
+
+          </div>
+
+
+          <div class="paragrafo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+              ut aliquip ex ea commodo consequat.
+              <br><br><br>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse 
+              cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <br><br><br>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+     </div>
+
+      <footer>
+        <article class="about">
+          <img src="./images/logo-white.png" alt="Shoes store" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          </p>
+        </article>
+    
+        <article class="cetegories">
+          <h6>Categorias</h6>
+          <ul>
+            <li>sandálias</li>
+            <li>botas</li>
+            <li>tênis</li>
+            <li>oxford</li>
+            <li>coturnos</li>
+          </ul>
+        </article>
+    
+        <article class="institucional">
+          <h6>Institucional</h6>
+          <ul>
+            <li>sobre nós</li>
+            <li>perguntas frequentes</li>
+            <li>política de privacidade</li>
+            <li>rastreamento de pedidos</li>
+            <li>trabalhe conosco</li>
+            <li>contato</li>
+          </ul>
+        </article>
+      </footer>
+</body>
+</html>
